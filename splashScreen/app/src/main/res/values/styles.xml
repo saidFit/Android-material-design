@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OutlinedBoxWithBorderColor" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your colorPrimary here -->
+        <item name="colorPrimary">@color/gray_400</item>
+        <!--It enables window content transitions for the
+            entire application. When set to true, it means that
+            your app will use transitions between activities if
+            they are defined.-->
+        <item name="android:windowContentTransitions">true</item>
+        <!-- Other theme attributes -->
+    </style>
+
+    <style name="CustomRatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressTint">@color/green_500</item>
+    </style>
+
+
+</resources>

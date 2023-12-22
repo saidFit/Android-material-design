@@ -1,0 +1,82 @@
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/fullName_log"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="fullName"
+           android:transitionName="fullName"
+           style="@style/OutlinedBoxWithBorderColor"
+           >
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:drawableLeft="@drawable/user"
+               android:drawablePadding="9dp"
+
+               android:layout_height="wrap_content" />
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/username"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="username"
+           android:transitionName="username"
+           style="@style/OutlinedBoxWithBorderColor"
+           >
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:drawableLeft="@drawable/user"
+               android:drawablePadding="9dp"
+               android:layout_height="wrap_content" />
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/emailAddress_log"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="email"
+           android:transitionName="email"
+           style="@style/OutlinedBoxWithBorderColor"
+           >
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:drawableLeft="@drawable/user"
+               android:drawablePadding="9dp"
+               android:inputType="textEmailAddress"
+               android:layout_height="wrap_content" />
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/password_log"
+           style="@style/OutlinedBoxWithBorderColor"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="password"
+           android:transitionName="password"
+           app:passwordToggleEnabled="true"
+           >
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="sans-serif"
+               android:textColor="@color/black"
+               android:inputType="textPassword"
+               />
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+   </LinearLayout>
+

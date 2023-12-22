@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_marginHorizontal="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/imgCard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/coffee_machine"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:id="@+id/textCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="9dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/gray_500"
+                android:text="smile title" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="3.5"
+                android:numStars="5"
+                android:layout_margin="5dp"
+                style="@style/CustomRatingBar"
+
+                />
+            <TextView
+                android:id="@+id/descCard"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="the smile welcome can be grancefull to be batter in all"
+                android:layout_margin="4dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

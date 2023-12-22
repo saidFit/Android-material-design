@@ -1,0 +1,18 @@
+<!-- circular_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Circle (Outer Border) -->
+    <item>
+        <shape
+            android:shape="oval">
+            <solid android:color="@android:color/transparent" /> <!-- Change to your desired background color -->
+            <stroke
+                android:width="14dp"
+                android:color="@color/gray_700" />
+        </shape>
+    </item>
+
+    <!-- Inner Circle (Your Content) -->
+
+
+</layer-list>
